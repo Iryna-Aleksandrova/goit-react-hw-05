@@ -1,0 +1,30 @@
+.wrapper {
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.input {
+  background-color: #376e6f;
+  border-color: 2px #2e151b;
+  color: #da7b93;
+  margin-right: 18px;
+  padding: 6px 9px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #da7b93;
+  color: #2e151b;
+  padding: 6px 9px;
+  cursor: pointer;
+  border-radius: 6px;
+  border-color: #2e151b;
+  font-size: 16px;
+}
+
+.btn:hover:focus {
+  background-color: #2e151b;
+  color: #da7b93;
+  border-color: #da7b93;
+}

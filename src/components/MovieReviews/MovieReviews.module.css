@@ -1,0 +1,15 @@
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #da7b93;
+  padding-left: 28px;
+}
+
+.text {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  color: #376e6f;
+  padding-left: 28px;
+}

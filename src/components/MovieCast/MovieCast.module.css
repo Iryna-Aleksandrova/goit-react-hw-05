@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  list-style: none;
+  margin-top: 18px;
+}
+
+.item {
+  max-width: 130px;
+  background-color: #2f4454;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.title {
+  color: #376e6f;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.text {
+  color: #da7b93;
+  font-size: 12px;
+  font-weight: 300;
+}

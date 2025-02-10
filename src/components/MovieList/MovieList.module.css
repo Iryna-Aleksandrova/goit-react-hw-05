@@ -1,0 +1,13 @@
+ul {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.movie {
+  font-size: 18px;
+  margin-left: 32px;
+  color: #da7b93;
+}

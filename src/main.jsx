@@ -1,10 +1,16 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import App from "./components/App/App";
 import "./index.css";
-import App from "./App.jsx";
+import "modern-normalize";
+import { BrowserRouter } from "react-router-dom";
+import { StrictMode } from "react";
+import { Toaster } from "react-hot-toast";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+      <Toaster position="top-center" reverseOrder={false} />
+    </BrowserRouter>
   </StrictMode>
 );
